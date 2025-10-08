@@ -35,6 +35,8 @@ Siga os passos abaixo para configurar e rodar o projeto em sua máquina local.
 
 ```bash
 git clone <https://github.com/andresilvm/qa_p5_b.git>
+```
+
 
 ``cmd
 cd QA_P%_B
@@ -42,4 +44,4 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pytest --cov=src --cov-report term-missing --cov-report html
-
+``
