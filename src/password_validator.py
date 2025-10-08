@@ -45,10 +45,10 @@ def validate_password(password: str) -> bool:
     return True
 
 
-if __name__ == '__main__':
-    
-    try:
-        if validate_password("Senha123Forte"):
-            print("Senha validada com sucesso!")
-    except InvalidPasswordException as e:
-        print(f"Falha na validação: {e.message}")
+# if __name__ == '__main__':
+#    
+#    try:
+#        if validate_password("Senha123Forte"):
+#            print("Senha validada com sucesso!")
+#    except InvalidPasswordException as e:
+#        print(f"Falha na validação: {e.message}") 
