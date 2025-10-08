@@ -37,11 +37,17 @@ Siga os passos abaixo para configurar e rodar o projeto em sua máquina local.
 git clone <https://github.com/andresilvm/qa_p5_b.git>
 ```
 
+### 3. Configure o Ambiente
 
-``cmd
-cd QA_P%_B
+```cmd
+cd qa_p5_b
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 pytest --cov=src --cov-report term-missing --cov-report html
-``
+```
+
+## Relatório
+
+<img width="2410" height="716" alt="image" src="https://github.com/user-attachments/assets/12606a6d-bbfa-48ca-972c-71579bc986f4" />
+
